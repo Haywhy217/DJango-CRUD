@@ -7,6 +7,7 @@ from .models import Product
 
 # Create your views here.
 
+@csrf_exempt
 def getProducts(request):
   if request.method == 'GET':
     product= Product.objects.all()

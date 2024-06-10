@@ -1,6 +1,6 @@
 from django.http import JsonResponse
-from django.shortcuts import renderd
-from  django.views.decorators import csrf_exempt
+from django.shortcuts import render
+from django.views.decorators.csrf import csrf_exempt
 import json
 
 # Create your views here.

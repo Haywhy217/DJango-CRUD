@@ -1,4 +1,5 @@
-from django import path
+from django.urls import path
+from django.shortcuts import render
 from.views import getusers,add_users,edit_users,delete_users
 
 
